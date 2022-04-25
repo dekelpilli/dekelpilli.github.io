@@ -5,6 +5,8 @@ subtitle: probably
 permalink: /:title/
 ---
 
-# I did a thing
-
 Maybe I'll write about it one day
+
+```clj
+(str "This will get written in under " Long/MAX_VALUE " days.")
+```
