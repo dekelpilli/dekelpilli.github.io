@@ -3,10 +3,16 @@ remote_theme: daattali/beautiful-jekyll@5.0.0
 title: dekelpilli
 author: Dekel Pilli
 
+navbar-links:
+  about: "about"
+  repos: "https://github.com/dekelpilli?tab=repositories"
+
 social-network-links:
   email: "dekelpilli@gmail.com"
   github: dekelpilli
   linkedin: dekelpilli
 
-exclude:
-  - README.md
+date_format: "%Y-%m-%d"
+
+share-links-active:
+  twitter: true

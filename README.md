@@ -1,1 +1,0 @@
-# dekelpilli.github.io
