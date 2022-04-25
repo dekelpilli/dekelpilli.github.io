@@ -1,0 +1,12 @@
+remote_theme: daattali/beautiful-jekyll@5.0.0
+
+title: dekelpilli
+author: Dekel Pilli
+
+social-network-links:
+  email: "dekelpilli@gmail.com"
+  github: dekelpilli
+  linkedin: dekelpilli
+
+exclude:
+  - README.md
