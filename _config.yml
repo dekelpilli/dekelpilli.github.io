@@ -16,3 +16,18 @@ date_format: "%Y-%m-%d"
 
 share-links-active:
   twitter: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      social-share: true
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
