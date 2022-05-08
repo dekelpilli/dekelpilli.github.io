@@ -5,7 +5,9 @@ author: Dekel Pilli
 
 navbar-links:
   about: "about"
-  repos: "https://github.com/dekelpilli?tab=repositories"
+  Resources:
+    - Repositories: "https://github.com/dekelpilli?tab=repositories"
+    - Resumè: "assets/dl/resume.pdf"
 
 social-network-links:
   email: "dekelpilli@gmail.com"
