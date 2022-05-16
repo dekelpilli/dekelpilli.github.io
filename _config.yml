@@ -7,7 +7,7 @@ navbar-links:
   about: "about"
   Resources:
     - Repositories: "https://github.com/dekelpilli?tab=repositories"
-    - Resumè: "assets/dl/resume.pdf"
+    - Résumé: "assets/raw/resume.pdf"
 
 social-network-links:
   email: "dekelpilli@gmail.com"
