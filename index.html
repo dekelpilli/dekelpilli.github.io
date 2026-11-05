@@ -1,5 +1,24 @@
 ---
-layout: home
-title: Dekel Pilli
-subtitle: Write code, not words
+layout: page
+title: Projects
+subtitle: My creations
 ---
+
+<style>
+  .projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+  .project { display: flex; flex-direction: column; gap: .5rem; padding: 1.25rem 1.5rem; border: 1px solid var(--card-border); border-radius: 8px; color: inherit; text-decoration: none; transition: box-shadow .15s, transform .15s; }
+  .project:hover { color: inherit; box-shadow: 0 4px 14px rgba(0, 0, 0, .25); transform: translateY(-2px); }
+  .project h2 { margin: 0; font-size: 1.25rem; color: var(--card-title); }
+  .project p { margin: 0; flex: 1; color: var(--card-text); }
+  .project small { color: var(--card-muted); }
+</style>
+
+<div class="projects">
+  {% for p in site.data.projects %}
+  <a href="{{ p.url }}" class="project">
+    <h2>{{ p.name }}</h2>
+    <p>{{ p.description }}</p>
+    <small>{{ p.url | remove: "https://" | split: "/" | first }}</small>
+  </a>
+  {% endfor %}
+</div>

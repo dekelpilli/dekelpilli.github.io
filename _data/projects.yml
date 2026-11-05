@@ -1,0 +1,18 @@
+- name: spies.tools
+  description: A website for viewing and searching data for the tabletop RPG system Spies & Spiders
+  url: https://spies.tools/
+- name: Spies & Spiders Companion
+  description: Companion app for GMs of tabletop RPG system Spies & Spiders
+  url: https://github.com/spies-and-spiders/companion/
+- name: Custom logic for my S&S Companion usage
+  description: Content and loot rules for my own S&S campaign
+  url: https://github.com/dekelpilli/campaign5
+- name: Path of Exile Crop Rotation calculator
+  description: Tool for calculating the optimal Harvest strategy in Path of Exile, based on current market rates
+  url: https://dekelpilli.github.io/crop-rotation
+- name: randy
+  description: A small Clojure(script) collection of randomisation tools
+  url: https://github.com/dekelpilli/randy
+- name: PerfectGym Scheduler
+  description: A small babashka script that helps to schedule bookings for gym classes
+  url: https://github.com/dekelpilli/perfectgym-scheduler

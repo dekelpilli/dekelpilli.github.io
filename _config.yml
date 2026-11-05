@@ -4,7 +4,6 @@ title: dekelpilli
 author: Dekel Pilli
 
 navbar-links:
-  about: "about"
   Resources:
     - Repositories: "https://github.com/dekelpilli?tab=repositories"
     - Résumé: "assets/raw/resume.pdf"
@@ -33,3 +32,9 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+
+plugins:
+  - jekyll-remote-theme
+
+site-css:
+  - /assets/css/dark.css
