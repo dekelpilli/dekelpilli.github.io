@@ -2,10 +2,10 @@
   description: A website for viewing and searching data for the tabletop RPG system Spies & Spiders
   url: https://spies.tools/
 - name: Spies & Spiders Companion
-  description: Companion app for GMs of tabletop RPG system Spies & Spiders
+  description: Companion app for GMs of tabletop RPG system Spies & Spiders. Available as both a JAR and as a native executable/binary.
   url: https://github.com/spies-and-spiders/companion/
-- name: Custom logic for my S&S Companion usage
-  description: Content and loot rules for my own S&S campaign
+- name: Custom S&S Companion plugin
+  description: Content and loot rules for my own Spies & Spiders campaign
   url: https://github.com/dekelpilli/campaign5
 - name: Path of Exile Crop Rotation calculator
   description: Tool for calculating the optimal Harvest strategy in Path of Exile, based on current market rates
